@@ -1,0 +1,40 @@
+Mining block...
+Block mined: 000057d0ca3e051c2d3ce596d6c31941bd6734ad47a95100d8ab08871c9e9016
+Mining block...
+Block mined: 0000f68bfebb8a68e40da050688ba487dc53820b272b7945f17922058c40a928
+
+
+{
+    "chain": [
+        {
+            "index": 0,
+            "timestamp": "01/01/2018",
+            "data": "Genesis block",
+            "previousHash": "0",
+            "hash": "a5d991a6c75bc497e967f6577445953d6a68e91a4243bbefad61f545f236045b",
+            "nonce": 0
+        },
+        {
+            "index": 1,
+            "timestamp": "Mon Jun 25 2018 15:03:51 GMT-0400 (Eastern Daylight Time)",
+            "data": "This is block 1",
+            "previousHash": "a5d991a6c75bc497e967f6577445953d6a68e91a4243bbefad61f545f236045b",
+            "hash": "000057d0ca3e051c2d3ce596d6c31941bd6734ad47a95100d8ab08871c9e9016",
+            "nonce": 147287
+        },
+        {
+            "index": 2,
+            "timestamp": "Mon Jun 25 2018 15:03:51 GMT-0400 (Eastern Daylight Time)",
+            "data": "This is block 2",
+            "previousHash": "000057d0ca3e051c2d3ce596d6c31941bd6734ad47a95100d8ab08871c9e9016",
+            "hash": "0000f68bfebb8a68e40da050688ba487dc53820b272b7945f17922058c40a928",
+            "nonce": 56240
+        }
+    ],
+    "difficulty": 4
+}
+
+
+
+Is blockchain valid?    true
+
