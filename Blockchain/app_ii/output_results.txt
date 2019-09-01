@@ -1,0 +1,31 @@
+{
+    index: 0,
+    timestamp: 1537236800416,
+    data: 'Genesis Block',
+    prevHash: '0',
+    thisHash: 'a0fec317fe451b2aaeefc62db8e58a69a2eb72811bc0618693815c428882e4b0'
+  },
+  {
+    index: 1,
+    timestamp: 1537236800417,
+    data: 'This is block #1',
+    prevHash:
+      'a0fec317fe451b2aaeefc62db8e58a69a2eb72811bc0618693815c428882e4b0',
+    thisHash: 'ef4c1756bb4773185d96164d29c05ed1f9bb45693fb6a85748c694b470c911fb'
+  },
+  {
+    index: 2,
+    timestamp: 1537236800417,
+    data: 'This is block #2',
+    prevHash:
+      'ef4c1756bb4773185d96164d29c05ed1f9bb45693fb6a85748c694b470c911fb',
+    thisHash: '9a811c23b4a8bc6bed733a160936053b2ade9920878b57f7877a99ae590d7f87'
+  },
+  {
+    index: 3,
+    timestamp: 1537236800417,
+    data: 'This is block #3',
+    prevHash:
+      '9a811c23b4a8bc6bed733a160936053b2ade9920878b57f7877a99ae590d7f87',
+    thisHash: '3440c7ebf00d9dd856c4cc2adb79863d803ec821b4083fda7796a39cd7b34239'
+  }
