@@ -1,5 +1,5 @@
 # Node.js_Blockchain
- Blockchain using Node.js and Socket.io Blockchain is a decentralized trust based system to transfer and verify the data sent over a network.  
+ Blockchain using Node.js and Socket.io. Blockchain is a decentralized trust based system to transfer and verify the data sent over a network.  
  
  It is a decentralized system in which a record of transactions made in bitcoin or another cryptocurrency are maintained across several computers that are linked in a peer-to-peer network. 
  
