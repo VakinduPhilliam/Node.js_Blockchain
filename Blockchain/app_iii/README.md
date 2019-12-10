@@ -1,4 +1,4 @@
-#Node.js Blockchain
+# Node.js Blockchain
 
 
 Building a simple blockchain cryptocurrency network using Node.js, JavaScript, Express and web sockets. 
