@@ -1,28 +1,57 @@
-// Blockchain using NodeJS and Socket.io
-// transaction.js
-
-//
-// The Transaction Model
-//
-
-// This transaction model takes in data as sender, receiver, amount and in addition creates another internal data
-// called timestamp.
-
 class Transaction {
+  
 
-  constructor(sender, receiver, amount) {
+constructor(sender, receiver, amount) {
+    
 
-    this.sender = sender;
-    this.receiver = receiver;
-    this.amount = amount;
-
-    this.timestamp = Date.now();
-
-  }
-
-  /* Stringfying and Parser functions */ 
+this.sender = sender;
+    
+this.receiver = receiver;
+    
+this.amount = amount;
+    
+this.timestamp = Date.now();
+  
 
 }
 
-module.exports = Transaction;
+  
 
+getDetails() {
+    
+
+const { sender, receiver, amount, timestamp } = this;
+    
+
+return {
+ sender,
+ receiver,
+ amount,
+ timestamp,
+ };
+  
+
+}
+
+  
+
+parseTransaction(transaction) {
+    
+
+this.sender = transaction.sender;
+    
+this.receiver = transaction.receiver;
+    
+this.amount = transaction.amount;
+    
+this.timestamp = transaction.timestamp;
+  
+
+}
+
+
+}
+
+
+
+module.exports = Transaction;
