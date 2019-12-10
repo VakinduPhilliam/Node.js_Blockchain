@@ -1,0 +1,26 @@
+{
+  "name": "2",
+  "version": "1.0.0",
+  "description": "Blockchain Super Computer",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src/server.js --out-dir build"
+  },
+  "keywords": [
+    "AdamBC"
+  ],
+  "author": "Vakindu",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.7.1",
+    "axios": "^0.19.0",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "yarn": "^1.19.1"
+  }
+}
